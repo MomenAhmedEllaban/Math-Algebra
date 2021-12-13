@@ -261,6 +261,13 @@ input[type="radio"]+label:hover {
     transform: rotateX(360deg);
 }
 
+.ready-active {
+    pointer-events: none;
+ 
+}
+
+
+
 #emc-submit.ready-show:hover {
     color: #fbfbfb;
     background: #27b198;
