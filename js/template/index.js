@@ -72,6 +72,8 @@
             }
             if (chosen.length === itemCount) {
                 $submit.addClass('ready-show');
+                $submit.removeClass('ready-active');
+
                 $submit.click(function() {
 
                     $(".choices").addClass("pointerEvents");
